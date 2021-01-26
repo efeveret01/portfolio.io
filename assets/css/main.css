@@ -3881,7 +3881,11 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
-
+		
+		#intro img {
+  			filter: grayscale(100%);
+		}
+		
 		#intro p {
 			font-size: 1.25em;
 		}
